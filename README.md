@@ -5,10 +5,13 @@
 ![Predicciones vs Demanda Real](images/overview.png)
 
 ## Descripción del Proyecto y Objetivos
-Este proyecto se centra en predecir la demanda energética horaria (en MWh) de la región Far West de Texas (FWES) de ERCOT utilizando redes neuronales recurrentes (RNN). En especifico, se hará uso de LSTM (Long Short-Term Memory). El objetivo es optimizar la generación de energía para evitar sobrecostos y mejorar la eficiencia en la gestión de la red eléctrica, dado el alto grado de penetración de energías renovables y la volatilidad extrema de la demanda y generación. Usando datos históricos horarios del 2019 al 2024 y evaluando su desempeño en el primer trimestre de 2025.
+Este proyecto se centra en predecir la demanda energética horaria (en MWh) de la región Far West de Texas (FWES) de ERCOT utilizando redes neuronales recurrentes (RNN). En especifico, se hará uso de LSTM (Long Short-Term Memory).
+
+El objetivo es optimizar la generación de energía para evitar sobrecostos y mejorar la eficiencia en la gestión de la red eléctrica, dado el alto grado de penetración de energías renovables y la volatilidad extrema de la demanda y generación. Usando datos históricos horarios del 2019 al 2024 y evaluando su desempeño en el primer trimestre de 2025.
 
 ## ¿Por qué Far West?
 La región de Far West Texas es una de las más relevantes en términos de generación de energía eólica (energías renovables) y presenta una alta volatilidad en la demanda y generación. Por ello, la predicción precisa de la demanda es importante para evitar cuellos de botella en la transmisión y optimizar la generación de energía.
+
 
 ## Estructura del Proyecto
 *   **`Images`**: Capeta que contiene imagenes utilizadas en este archivo README.
@@ -81,6 +84,7 @@ El optimizador **Adam** se eligió por su eficiencia en problemas de optimizaci�
 
 ## Resultados
 
-Una vez entrenado, el modelo LSTM fue capaz de predecir con mayor precisión la demanda energética futura, lo que puede ser crucial para mejorar la gestión de la generación de energía y optimizar los costos en un entorno con alta penetración de energías renovables. Las predicciones precisas permiten ajustar las decisiones operativas en tiempo real, evitando la sobrecarga de la red.
+Una vez entrenado, el modelo LSTM fue capaz de predecir con mayor precisión la demanda energética futura, lo que es ser de suma importancia para mejorar la gestión de la generación de energía y optimizar los costos en un entorno con alta penetración de energías renovables. Las predicciones del modelo permiten ajustar las decisiones operativas en tiempo real, evitando la sobrecarga de la red.
 
-La implementación del modelo LSTM con optimizadores avanzados y técnicas de regularización como la detención temprana y el guardado del mejor modelo, ofrece una solución robusta y eficiente para la predicción de la demanda energética en entornos complejos y volátiles.
+La implementación del modelo LSTM con optimizadores y técnicas de regularización como la detención temprana y el guardado del mejor modelo, proporciona una solución robusta y eficiente para la predicción de la demanda energética en entornos complejos y volátiles.
+
