@@ -14,7 +14,6 @@ La región de Far West Texas es una de las más relevantes en términos de gener
 *   **`LSTM.ipynb`**: El código principal del modelo de predicción utilizando LSTM.
 *   **`requirements.txt`**: Lista de dependencias necesarias para ejecutar el proyecto.
 *   **`README.md`**: Este archivo, que explica cómo ejecutar el proyecto y qué hace.
-*   **`.gitignore`**: Archivos que no deben ser incluidos en el repositorio.
 
 ## Descripción de los Datos
 
