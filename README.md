@@ -11,6 +11,7 @@ Este proyecto se centra en predecir la demanda energética horaria (en MWh) de l
 La región de Far West Texas es una de las más relevantes en términos de generación de energía eólica (energías renovables) y presenta una alta volatilidad en la demanda y generación. Por ello, la predicción precisa de la demanda es importante para evitar cuellos de botella en la transmisión y optimizar la generación de energía.
 
 ## Estructura del Proyecto
+*   **`Images`**: Capeta que contiene imagenes utilizadas en este archivo README.
 *   **`LSTM.ipynb`**: El código principal del modelo de predicción utilizando LSTM.
 *   **`requirements.txt`**: Lista de dependencias necesarias para ejecutar el proyecto.
 *   **`README.md`**: Este archivo, que explica cómo ejecutar el proyecto y qué hace.
