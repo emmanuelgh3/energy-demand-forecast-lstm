@@ -42,6 +42,15 @@ Los datos se obtienen de la **U.S. Energy Information Administration (EIA)** y e
 - **value**: La cantidad de **demanda de energía** (valor numerico).
 - **value-units**: La unidad de medida para la demanda energética, la cual es **megavatios hora (MWh)**.
 
+### Datasets
+
+Se utilizaron los siguientes conjuntos de datos para el entrenamiento y evaluación del modelo:
+
+- **Datos de entrenamiento**: `ercot_fwes_complete_2019-2025.csv` - Este conjunto de datos fue utilizado para entrenar el modelo LSTM. Contiene la demanda horaria de energía eléctrica en la región de Far West de Texas, con datos históricos desde 2019 hasta el 31 de diciembre de 2024.
+  
+- **Datos de evaluación**: `ercot_fwes_010125-033125.csv` - Este conjunto de datos se utilizó para evaluar el desempeño del modelo. Incluye los registros de la demanda horaria de energía para el primer trimestre de 2025, lo que permitió comprobar la capacidad predictiva del modelo.
+
+
 ### Preprocesamiento
 
 Los datos han sido preprocesados de la siguiente manera:
